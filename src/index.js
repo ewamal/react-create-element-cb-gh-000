@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM form 'react-dom';
+import ReactDOM from 'react-dom';
 
 const meInReact =
   React.createElement('div', {}, {className: 'me'},
