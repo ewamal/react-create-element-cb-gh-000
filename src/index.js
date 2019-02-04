@@ -12,3 +12,8 @@ const meInReact =
       React.createElement('li', {}, 'Ice cream')
     )
   )
+
+ ReactDOM.render(
+   meInReact,
+   document.getElementById('global')
+ )
