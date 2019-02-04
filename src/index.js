@@ -1,12 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM form 'react-dom';
 
-const title = React.createElement('h1', {}, 'my first react');
-const paragraph = React.createElement('p', {}, 'writin some more html');
-const container = React.createElement('div', {}, [title, paragraph]);
-
-
-ReactDOM.render(
-  container,
-  document.getElementById('global')
-);
+const meInReact =
+  React.createElement('div', {}, {className: 'me'},
+    React.createElement('h1', {}, 'an awsome person'),
+    React.createElement('p', {}, 'who is learning React'),
+    React.createElement('ul', {}, {className: 'my-interests'},
+      React.createElement('li', {}, 'JavaScript'),
+      React.createElement('li', {}, 'React'),
+      React.createElement('li', {}, 'Movies'),
+      React.createElement('li', {}, 'Ice cream')
+    )
+  )
